@@ -1,6 +1,6 @@
 module github.com/redboxllc/scuttle
 
-go 1.14
+go 1.17
 
 require (
 	github.com/cenk/backoff v2.1.1+incompatible
@@ -12,4 +12,10 @@ require (
 	github.com/monzo/typhon v0.0.0-20190413083455-45c89a830a76
 	github.com/stretchr/testify v1.6.1 // indirect
 	golang.org/x/net v0.0.0-20200707034311-ab3426394381 // indirect
+)
+
+require (
+	github.com/nu7hatch/gouuid v0.0.0-20131221200532-179d4d0c4d8d // indirect
+	golang.org/x/text v0.3.0 // indirect
+	google.golang.org/protobuf v1.23.0 // indirect
 )
